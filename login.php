@@ -65,7 +65,7 @@ if(!empty($_POST['user']) && !empty($_POST['pass'])) {
     header("Location: member.php");  
     }  
     } else {  
-    echo "Invalid username or password!!!!!!";  
+    echo "Invalid username or password!!!";  
     }  
   
 } else {  
